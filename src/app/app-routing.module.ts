@@ -10,9 +10,9 @@ import { AboutUsComponent } from './about-us/about-us.component'
 const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
-    { path: 'about', component: HomeComponent },
-    { path: 'singup', component: HomeComponent },
-    
+    { path: 'about', component: AboutUsComponent },
+    { path: 'singup', component: SingUpComponent },
+
 
 ];
 
